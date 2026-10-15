@@ -23,12 +23,12 @@ if (is_post() && ($_POST['acao'] ?? '') === 'proxima') {
 if ($reiniciar || array_key_exists('categoria', $_GET)) {
     $ids = estudo_iniciar_fila($categoriaId);
     if (!$ids) {
-        flash('error', 'Não há questões ativas nesta categoria. Importe seed_treinamento_mg.sql ou cadastre questões no admin.');
+        flash('error', 'Não há questões nesta categoria. Importe seed_100_questoes_mg.sql no phpMyAdmin.');
     }
 } elseif (empty($_SESSION['estudo_fila'])) {
     $ids = estudo_iniciar_fila(null);
     if (!$ids) {
-        flash('error', 'Não há questões de treinamento. Importe seed_treinamento_mg.sql pelo phpMyAdmin.');
+        flash('error', 'Não há questões de treinamento. Importe seed_100_questoes_mg.sql no phpMyAdmin.');
     }
 }
 

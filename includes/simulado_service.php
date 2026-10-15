@@ -409,17 +409,3 @@ function resultado_detalhado(int $tentativaId): ?array
 
     return ['tentativa' => $t, 'questoes' => $questoes];
 }
-
-function estatisticas_publicas(): array
-{
-    $pdo = db();
-    $questoes = (int) $pdo->query('SELECT COUNT(*) FROM questoes WHERE ativo = 1')->fetchColumn();
-    $tentativas = (int) $pdo->query('SELECT COUNT(*) FROM tentativas WHERE status IN ("finalizado","expirado")')->fetchColumn();
-    $alunos = (int) $pdo->query('SELECT COUNT(*) FROM usuarios WHERE papel = "aluno" AND ativo = 1')->fetchColumn();
-    return [
-        'questoes' => $questoes,
-        'tentativas' => $tentativas,
-        'alunos' => $alunos,
-        'mostrar' => $questoes > 0 && ($tentativas > 0 || $alunos > 0),
-    ];
-}

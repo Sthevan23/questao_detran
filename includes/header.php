@@ -10,9 +10,6 @@ $pagina = pagina_atual();
     <meta name="description" content="Simulados para a prova teórica do DETRAN-MG.">
     <title><?= e($pageTitle ?? site_nome()) ?></title>
     <link rel="stylesheet" href="<?= e(url('assets/css/style.css')) ?>">
-    <?php if (!empty($painelCss)): ?>
-    <link rel="stylesheet" href="<?= e(url('assets/css/painel.css')) ?>">
-    <?php endif; ?>
 </head>
 <body>
 <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>

@@ -7,29 +7,6 @@ require_instalado();
 
 $id = (int) ($_GET['id'] ?? 0);
 
-if (is_post() && ($_POST['acao'] ?? '') === 'favorito' && auth_check()) {
-    csrf_verify();
-    $qid = (int) ($_POST['questao_id'] ?? 0);
-    if ($qid) {
-        $chk = db()->prepare('SELECT 1 FROM favoritos WHERE usuario_id = ? AND questao_id = ?');
-        $chk->execute([auth_id(), $qid]);
-        if ($chk->fetch()) {
-            db()->prepare('DELETE FROM favoritos WHERE usuario_id = ? AND questao_id = ?')->execute([auth_id(), $qid]);
-        } else {
-            db()->prepare('INSERT INTO favoritos (usuario_id, questao_id) VALUES (?, ?)')->execute([auth_id(), $qid]);
-        }
-    }
-    redirect(url('resultado.php?id=' . $id));
-}
-
-$favIds = [];
-if (auth_check()) {
-    $fs = db()->prepare('SELECT questao_id FROM favoritos WHERE usuario_id = ?');
-    $fs->execute([auth_id()]);
-    foreach ($fs->fetchAll() as $f) {
-        $favIds[(int) $f['questao_id']] = true;
-    }
-}
 $data = resultado_detalhado($id);
 if (!$data) {
     flash('error', 'Resultado não disponível.');
@@ -124,14 +101,6 @@ require __DIR__ . '/includes/header.php';
         <?php endif; ?>
         <?php if (!empty($q['referencia'])): ?>
         <p class="form-hint">Referência: <?= e($q['referencia']) ?></p>
-        <?php endif; ?>
-        <?php if (auth_check()): ?>
-        <form method="post" style="margin-top:.5rem;">
-            <?= csrf_field() ?>
-            <input type="hidden" name="acao" value="favorito">
-            <input type="hidden" name="questao_id" value="<?= (int) $q['id'] ?>">
-            <button type="submit" class="btn btn-sm btn-outline-dark"><?= isset($favIds[(int) $q['id']]) ? 'Remover dos favoritos' : 'Favoritar questão' ?></button>
-        </form>
         <?php endif; ?>
     </article>
     <?php endforeach; ?>
