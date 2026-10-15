@@ -28,10 +28,19 @@ if (is_post()) {
 $pageTitle = 'Prova teórica — ' . site_nome();
 require __DIR__ . '/includes/header.php';
 ?>
-<div class="container" style="max-width:480px;padding-top:1.5rem;">
-    <h1>Simulado da prova real</h1>
-    <p class="text-muted">Igual ao DETRAN-MG: <strong><?= $qtdProva ?> questões</strong>, <strong><?= $duracao ?> minutos</strong>, aprovado com <strong><?= $minAcertos ?> acertos</strong>.</p>
-    <p class="form-hint" style="margin-bottom:1rem;">Cada vez que você começar, o sistema sorteia <strong>outro conjunto de questões</strong> (como na prova).</p>
+<div class="container page-narrow">
+    <header class="page-header page-header--compact">
+        <h1>Simulado da prova real</h1>
+        <p class="text-muted">Formato DETRAN-MG — treino completo antes do dia da prova.</p>
+    </header>
+
+    <ul class="simulado-info-list">
+        <li><strong><?= $qtdProva ?> questões</strong> por prova</li>
+        <li><strong><?= $duracao ?> minutos</strong> de tempo</li>
+        <li>Aprovado com <strong><?= $minAcertos ?> acertos</strong></li>
+        <li>Novo sorteio <strong>a cada simulado</strong></li>
+    </ul>
+
     <?php if ($msg = flash('error')): ?><div class="alert alert-error"><?= e($msg) ?></div><?php endif; ?>
 
     <?php if (!$prova): ?>
@@ -39,12 +48,14 @@ require __DIR__ . '/includes/header.php';
     <?php elseif ($totalAtivas < $qtdProva): ?>
         <div class="alert alert-error">Faltam questões no banco (<?= $totalAtivas ?>/<?= $qtdProva ?>).</div>
     <?php else: ?>
-        <form method="post" data-loading>
-            <?= csrf_field() ?>
-            <input type="hidden" name="simulado_id" value="<?= (int) $prova['id'] ?>">
-            <button type="submit" class="btn btn-primary" style="width:100%;padding:.9rem;font-size:1.05rem;">Iniciar nova prova (<?= $qtdProva ?> questões)</button>
-        </form>
+        <article class="card card--action">
+            <form method="post" data-loading>
+                <?= csrf_field() ?>
+                <input type="hidden" name="simulado_id" value="<?= (int) $prova['id'] ?>">
+                <button type="submit" class="btn btn-primary btn-block">Iniciar nova prova (<?= $qtdProva ?> questões)</button>
+            </form>
+        </article>
     <?php endif; ?>
-    <p style="text-align:center;margin-top:1.25rem;"><a href="<?= e(url('estudo.php')) ?>">← Voltar a treinar</a></p>
+    <p class="page-links"><a href="<?= e(url('estudo.php')) ?>">← Voltar a treinar</a></p>
 </div>
 <?php require __DIR__ . '/includes/footer.php'; ?>

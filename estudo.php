@@ -51,7 +51,7 @@ $categorias = estudo_categorias_disponiveis();
 
     <?php if ($msg = flash('error')): ?><div class="alert alert-error"><?= e($msg) ?></div><?php endif; ?>
 
-    <form method="get" class="card estudo-filtro" style="margin-bottom:1rem;">
+    <form method="get" class="card card--soft estudo-filtro">
         <label for="categoria">Tema (opcional)</label>
         <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.35rem;">
             <select name="categoria" id="categoria">
@@ -89,8 +89,9 @@ $categorias = estudo_categorias_disponiveis();
         </div>
 
         <article class="questao-card">
-            <span class="badge badge-success" style="background:#e8f0fa;color:#12325c;">Questão de treinamento</span>
-            <h2 style="margin-top:.75rem;"><?= nl2br(e($q['enunciado'])) ?></h2>
+            <span class="badge badge-info">Treinamento</span>
+            <h2 class="questao-num">Questão <?= $indice + 1 ?> de <?= $total ?></h2>
+            <p class="questao-enunciado"><?= nl2br(e($q['enunciado'])) ?></p>
             <?php if (!empty($q['imagem'])): ?>
                 <img class="questao-img" src="<?= e(url('uploads/' . $q['imagem'])) ?>" alt="" loading="lazy">
             <?php endif; ?>

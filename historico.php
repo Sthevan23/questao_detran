@@ -9,12 +9,14 @@ $painel = historico_painel();
 $pageTitle = 'Meu progresso — ' . site_nome();
 require __DIR__ . '/includes/header.php';
 ?>
-<div class="container" style="max-width:720px;padding-top:1.25rem;">
-    <h1>Meu progresso</h1>
-    <p class="text-muted">Histórico dos simulados neste aparelho — acertos, erros e o que vale estudar.</p>
+<div class="container page-medium">
+    <header class="page-header page-header--compact">
+        <h1>Meu progresso</h1>
+        <p class="text-muted">Histórico dos simulados neste aparelho — acertos, erros e o que vale estudar.</p>
+    </header>
 
     <?php if (!$painel['tem_dados']): ?>
-        <div class="card" style="margin-top:1rem;">
+        <div class="card card--action">
             <p><?= e($painel['mensagem']) ?></p>
             <a class="btn btn-primary" href="<?= e(url('simulados.php')) ?>">Fazer um simulado</a>
         </div>
@@ -66,7 +68,7 @@ require __DIR__ . '/includes/header.php';
             <?php endif; ?>
         </article>
 
-        <h2 style="font-size:1.15rem;margin-top:1.5rem;">Simulados anteriores</h2>
+        <h2 class="section-title" style="font-size:1.2rem;margin-top:1.75rem;">Simulados anteriores</h2>
         <div class="hist-list">
             <?php foreach ($painel['simulados'] as $s):
                 $total = (int) $s['qtd_acertos'] + (int) $s['qtd_erros'];
@@ -88,7 +90,7 @@ require __DIR__ . '/includes/header.php';
         </div>
     <?php endif; ?>
 
-    <p style="text-align:center;margin:1.5rem 0;">
+    <p class="page-links">
         <a href="<?= e(url('simulados.php')) ?>">Fazer novo simulado</a>
         ·
         <a href="<?= e(url('estudo.php')) ?>">Treinar questões</a>

@@ -62,8 +62,8 @@ require __DIR__ . '/includes/header.php';
 
         <?php foreach ($questoes as $i => $q): ?>
         <article class="questao-card" data-questao data-questao-id="<?= (int) $q['id'] ?>" <?= $i > 0 ? 'hidden' : '' ?>>
-            <h2>Questão <?= (int) $q['ordem'] ?></h2>
-            <p><?= nl2br(e($q['enunciado'])) ?></p>
+            <h2 class="questao-num">Questão <?= (int) $q['ordem'] ?> de <?= $totalQ ?></h2>
+            <p class="questao-enunciado"><?= nl2br(e($q['enunciado'])) ?></p>
             <?php if (!empty($q['imagem'])): ?>
                 <img class="questao-img" src="<?= e(url('uploads/' . $q['imagem'])) ?>" alt="Ilustração da questão" loading="lazy">
             <?php endif; ?>
