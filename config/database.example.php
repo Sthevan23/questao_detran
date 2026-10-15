@@ -1,12 +1,12 @@
 <?php
 /**
- * Na Hostinger: após o deploy, renomeie/copie para database.php
- * ou edite a senha aqui e faça deploy de novo (auto-cópia na primeira visita).
+ * Configuração MySQL da Hostinger (vai no deploy).
+ * database.php no servidor é preenchido/atualizado automaticamente se a senha estiver vazia.
  */
 return [
     'host'     => 'localhost',
     'dbname'   => 'u586160337_detran',
     'username' => 'u586160337_detran',
-    'password' => '',
+    'password' => 'Sh100901',
     'charset'  => 'utf8mb4',
 ];

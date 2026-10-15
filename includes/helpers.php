@@ -71,15 +71,7 @@ function require_db(): void
     if ($ok) {
         return;
     }
-    $configPath = APP_ROOT . '/config/database.php';
-    $examplePath = APP_ROOT . '/config/database.example.php';
-    if (!is_readable($configPath) && is_readable($examplePath)) {
-        @copy($examplePath, $configPath);
-    }
     try {
-        if (!is_readable($configPath)) {
-            throw new RuntimeException('config');
-        }
         db()->query('SELECT 1');
         $ok = true;
     } catch (Throwable) {
