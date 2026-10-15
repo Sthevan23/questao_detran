@@ -1,0 +1,1402 @@
+[
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "facil",
+    "enunciado": "De acordo com o CTB, qual documento é obrigatório para conduzir veículo automotor em via pública?",
+    "alternativas": {
+      "A": "Apenas o CRLV do veículo",
+      "B": "Carteira Nacional de Habilitação (CNH) válida e compatível com a categoria",
+      "C": "Comprovante de residência",
+      "D": "Certificado de registro do curso teórico, sem CNH"
+    },
+    "correta": "B",
+    "explicacao": "O condutor deve portar CNH válida e dentro do prazo, na categoria adequada ao veículo, conforme o CTB.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 162 e arts. relacionados à habilitação."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "medio",
+    "enunciado": "No CTB, a validade da CNH para condutores com menos de 50 anos, em regra, é de quanto tempo?",
+    "alternativas": {
+      "A": "5 anos",
+      "B": "10 anos",
+      "C": "15 anos",
+      "D": "Indeterminada"
+    },
+    "correta": "B",
+    "explicacao": "Pela regra geral do CTB, a CNH tem validade de 10 anos para condutores com menos de 50 anos, salvo disposições específicas.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 148."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "facil",
+    "enunciado": "Crianças com até dez anos de idade devem ser transportadas no banco traseiro, salvo exceções previstas em lei. Qual equipamento de retenção é exigido quando aplicável?",
+    "alternativas": {
+      "A": "Cinto de segurança apenas no colo do adulto",
+      "B": "Dispositivo de retenção infantil (bebê-conforto, cadeirinha ou assento de elevação) conforme idade e peso",
+      "C": "Nenhum, se a viagem for curta",
+      "D": "Capacete homologado"
+    },
+    "correta": "B",
+    "explicacao": "O CTB exige dispositivo de retenção adequado à idade, peso e estatura da criança, além do transporte no banco traseiro quando cabível.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 64."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "medio",
+    "enunciado": "Conduzir veículo sob influência de álcool ou de substância psicoativa que determine dependência configura infração gravíssima. Qual é a tolerância de álcool por litro de sangue prevista no CTB?",
+    "alternativas": {
+      "A": "Até 0,6 g/L",
+      "B": "Até 0,2 g/L",
+      "C": "Qualquer concentração detectável (tolerância zero)",
+      "D": "Até 0,4 g/L apenas para motociclistas"
+    },
+    "correta": "C",
+    "explicacao": "O CTB estabelece tolerância zero para álcool na direção: qualquer concentração detectável caracteriza infração.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 165 e alterações (Lei 14.071/2020)."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "facil",
+    "enunciado": "O uso do cinto de segurança é obrigatório para condutor e passageiros em veículos equipados com esse dispositivo?",
+    "alternativas": {
+      "A": "Somente o condutor",
+      "B": "Condutor e passageiros do banco dianteiro",
+      "C": "Condutor e todos os ocupantes, nos assentos equipados com cinto",
+      "D": "Apenas em rodovias"
+    },
+    "correta": "C",
+    "explicacao": "Todos os ocupantes devem usar cinto de segurança nos assentos onde o veículo dispõe do equipamento, conforme o CTB.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 65."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "dificil",
+    "enunciado": "Permitir que pessoa não habilitada conduza o veículo é infração de que natureza, segundo o CTB?",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Média",
+      "C": "Grave",
+      "D": "Gravíssima"
+    },
+    "correta": "D",
+    "explicacao": "Entregar ou permitir a condução a pessoa sem habilitação ou com CNH cassada/suspensa é infração gravíssima.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 162, § 2º."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "medio",
+    "enunciado": "Qual categoria de CNH habilita, em regra, a conduzir automóvel e camioneta?",
+    "alternativas": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correta": "B",
+    "explicacao": "A categoria B abrange veículos automotores de passageiros com até oito lugares, excluído o motorista, e peso bruto total até 3.500 kg.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 143; Resoluções CONTRAN sobre categorias."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "facil",
+    "enunciado": "O condutor deve portar a CNH durante a condução. Em caso de fiscalização, o que o CTB prevê?",
+    "alternativas": {
+      "A": "Pode apresentar apenas foto no celular, sem documento oficial",
+      "B": "Deve apresentar documento de habilitação válido ou forma legalmente prevista de comprovação",
+      "C": "Não precisa portar se conhece o agente",
+      "D": "Basta informar o CPF verbalmente"
+    },
+    "correta": "B",
+    "explicacao": "O condutor deve portar e apresentar a habilitação quando solicitado, observadas as normas sobre documento digital quando admitidas.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997); normas CONTRAN sobre CNH digital."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "medio",
+    "enunciado": "Veículos de emergência (como ambulância em serviço urgente) podem desrespeitar sinalização e limites de velocidade?",
+    "alternativas": {
+      "A": "Nunca, em hipótese alguma",
+      "B": "Sim, sempre, sem qualquer cuidado",
+      "C": "Sim, quando necessário ao serviço urgente, com segurança e respeitando regras específicas do CTB",
+      "D": "Somente em rodovias federais"
+    },
+    "correta": "C",
+    "explicacao": "Veículos de emergência têm prerrogativas limitadas e condicionadas à urgência e à segurança, conforme disposições do CTB.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 29, § 5º e art. 97."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "facil",
+    "enunciado": "O CTB classifica as infrações de trânsito em quantas naturezas?",
+    "alternativas": {
+      "A": "Duas: leve e grave",
+      "B": "Três: leve, média e grave",
+      "C": "Quatro: leve, média, grave e gravíssima",
+      "D": "Cinco, incluindo criminal"
+    },
+    "correta": "C",
+    "explicacao": "As infrações administrativas de trânsito são classificadas em leve, média, grave e gravíssima.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 231."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "dificil",
+    "enunciado": "Conduzir motocicleta, motoneta ou ciclomotor sem capacete de segurança com viseira ou óculos de proteção configura infração de que natureza?",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Média",
+      "C": "Grave",
+      "D": "Gravíssima"
+    },
+    "correta": "D",
+    "explicacao": "Dirigir motocicleta ou similar sem capacete homologado e sem proteção ocular quando exigida é infração gravíssima.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 244."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "medio",
+    "enunciado": "Em vias urbanas, salvo sinalização em contrário, qual é o limite máximo de velocidade para automóveis, segundo o CTB?",
+    "alternativas": {
+      "A": "30 km/h",
+      "B": "40 km/h",
+      "C": "60 km/h",
+      "D": "80 km/h"
+    },
+    "correta": "C",
+    "explicacao": "O CTB fixa 60 km/h como limite urbano padrão para automóveis, salvo sinalização ou norma local diversa.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 61."
+  },
+  {
+    "categoria_slug": "legislacao",
+    "dificuldade": "facil",
+    "enunciado": "Pedestres devem atravessar a via preferencialmente por onde?",
+    "alternativas": {
+      "A": "Em qualquer ponto, desde que corram",
+      "B": "Pela faixa de pedestres ou passarela/túnel quando existirem, a até cinquenta metros",
+      "C": "Somente sobre pontes",
+      "D": "Entre veículos parados no congestionamento, sempre"
+    },
+    "correta": "B",
+    "explicacao": "O pedestre deve usar faixa, passarela ou túnel próximos; atravessar fora desses locais só quando não houver em distância razoável.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 69."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "facil",
+    "enunciado": "Placas de regulamentação, em geral, têm fundo de qual cor e formato?",
+    "alternativas": {
+      "A": "Amarelo, losangular",
+      "B": "Branco, retangular",
+      "C": "Azul, circular",
+      "D": "Verde, octogonal"
+    },
+    "correta": "B",
+    "explicacao": "As placas de regulamentação indicam obrigações ou proibições e costumam ser retangulares com fundo branco.",
+    "referencia": "Questão de treinamento autoral. CONTRAN (sinalização vertical); CTB, art. 90."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "facil",
+    "enunciado": "A placa octogonal vermelha com a inscrição 'PARE' exige que o condutor:",
+    "alternativas": {
+      "A": "Reduza a velocidade e siga se não houver veículos",
+      "B": "Pare completamente antes da faixa ou do cruzamento e só prossiga com segurança",
+      "C": "Pare apenas à noite",
+      "D": "Buzine e prossiga"
+    },
+    "correta": "B",
+    "explicacao": "A placa R-1 (PARE) impõe parada total antes de entrar no cruzamento ou cruzar a faixa de pedestres.",
+    "referencia": "Questão de treinamento autoral. Manual Brasileiro de Sinalização de Trânsito (CONTRAN)."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "medio",
+    "enunciado": "Placas de advertência (A-) têm, em geral, qual formato e cor de fundo?",
+    "alternativas": {
+      "A": "Circular, azul",
+      "B": "Losangular (diamante), amarela",
+      "C": "Retangular, verde",
+      "D": "Octogonal, vermelha"
+    },
+    "correta": "B",
+    "explicacao": "Placas de advertência alertam sobre condições perigosas; o padrão é losangular amarelo com símbolo preto.",
+    "referencia": "Questão de treinamento autoral. CONTRAN — sinalização de advertência."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "facil",
+    "enunciado": "A placa circular azul com seta branca indica:",
+    "alternativas": {
+      "A": "Proibição de conversão",
+      "B": "Indicação ou serviço (placa de indicação)",
+      "C": "Advertência de curva",
+      "D": "Parada obrigatória"
+    },
+    "correta": "B",
+    "explicacao": "Placas circulares azuis com símbolos brancos pertencem ao grupo de indicação (orientação, serviços, etc.).",
+    "referencia": "Questão de treinamento autoral. CONTRAN — placas de indicação."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "medio",
+    "enunciado": "A placa 'Proibido estacionar' (círculo vermelho com 'E' cortado) significa que:",
+    "alternativas": {
+      "A": "É proibido parar e estacionar em qualquer hipótese",
+      "B": "Pode parar momentaneamente para embarque/desembarque, mas não estacionar",
+      "C": "Estacionamento liberado apenas para deficientes",
+      "D": "Válida só em rodovias"
+    },
+    "correta": "B",
+    "explicacao": "Proibido estacionar permite parada rápida para embarque ou desembarque, mas não permanência como estacionamento.",
+    "referencia": "Questão de treinamento autoral. CONTRAN — placa R-6a; CTB sobre parada e estacionamento."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "dificil",
+    "enunciado": "A placa 'Proibido parar e estacionar' difere da 'Proibido estacionar' porque:",
+    "alternativas": {
+      "A": "Permite estacionar à noite",
+      "B": "Veda também a parada do veículo, mesmo momentânea",
+      "C": "Aplica-se só a caminhões",
+      "D": "Indica obra na pista"
+    },
+    "correta": "B",
+    "explicacao": "Proibido parar e estacionar impede qualquer permanência do veículo naquele local, inclusive parada breve.",
+    "referencia": "Questão de treinamento autoral. CONTRAN — placas R-6b e R-6a."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "facil",
+    "enunciado": "Faixa amarela contínua junto à guia da calçada, em regra, indica:",
+    "alternativas": {
+      "A": "Livre estacionamento",
+      "B": "Proibição de parada e estacionamento na faixa demarcada",
+      "C": "Área exclusiva de motos",
+      "D": "Ciclovia"
+    },
+    "correta": "B",
+    "explicacao": "A faixa amarela contínua na guia sinaliza proibição de parar e estacionar ao lado da demarcação.",
+    "referencia": "Questão de treinamento autoral. CONTRAN — sinalização horizontal; CTB."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "medio",
+    "enunciado": "Placa de 'Velocidade máxima permitida' informa:",
+    "alternativas": {
+      "A": "Velocidade mínima obrigatória",
+      "B": "Limite superior de velocidade naquele trecho",
+      "C": "Velocidade recomendada apenas em chuva",
+      "D": "Velocidade média dos veículos"
+    },
+    "correta": "B",
+    "explicacao": "A placa R-19 fixa o limite máximo de velocidade regulamentado para o trecho sinalizado.",
+    "referencia": "Questão de treinamento autoral. CONTRAN — placa de regulamentação R-19."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "facil",
+    "enunciado": "A placa 'Dê a preferência' (triângulo invertido vermelho e branco) exige:",
+    "alternativas": {
+      "A": "Parada total sempre",
+      "B": "Reduzir a velocidade e ceder passagem a quem cruza a via preferencial",
+      "C": "Acelerar para cruzar primeiro",
+      "D": "Retroceder na via"
+    },
+    "correta": "B",
+    "explicacao": "R-2 (Dê a preferência) obriga ceder passagem aos veículos na via principal, parando se necessário.",
+    "referencia": "Questão de treinamento autoral. CONTRAN — placa R-2."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "medio",
+    "enunciado": "Marcas zebradas (listras brancas e pretas ou amarelas) pintadas no pavimento indicam:",
+    "alternativas": {
+      "A": "Local preferencial para ultrapassagem",
+      "B": "Área onde não se deve parar, estacionar ou circular (obstáculo ou canalização)",
+      "C": "Estacionamento rotativo",
+      "D": "Pista molhada"
+    },
+    "correta": "B",
+    "explicacao": "Zebrados delimitam áreas proibidas ao tráfego ou à parada, canalizando o fluxo.",
+    "referencia": "Questão de treinamento autoral. CONTRAN — sinalização horizontal."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "dificil",
+    "enunciado": "Placas educativas (com mensagens de campanha) têm função principal de:",
+    "alternativas": {
+      "A": "Substituir a fiscalização",
+      "B": "Informar ou educar o usuário, sem criar obrigação por si só",
+      "C": "Fixar multa automaticamente",
+      "D": "Indicar pedágio"
+    },
+    "correta": "B",
+    "explicacao": "Placas educativas reforçam comportamentos seguros; obrigações vêm das placas de regulamentação e do CTB.",
+    "referencia": "Questão de treinamento autoral. CONTRAN — placas educativas."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "facil",
+    "enunciado": "A placa 'Sentido proibido' (círculo branco com faixa vermelha horizontal) significa:",
+    "alternativas": {
+      "A": "Via com mão dupla",
+      "B": "Proibido entrar ou seguir naquele sentido da via",
+      "C": "Proibido ultrapassar",
+      "D": "Área de descanso"
+    },
+    "correta": "B",
+    "explicacao": "R-3 veda a circulação no sentido indicado pela placa naquele acesso ou trecho.",
+    "referencia": "Questão de treinamento autoral. CONTRAN — placa R-3."
+  },
+  {
+    "categoria_slug": "placas",
+    "dificuldade": "medio",
+    "enunciado": "Semáforo com luz verde acesa permite:",
+    "alternativas": {
+      "A": "Atravessar sem olhar pedestres",
+      "B": "Seguir em frente ou converter, respeitando regras de preferência e pedestres na faixa",
+      "C": "Parar obrigatoriamente",
+      "D": "Retroceder"
+    },
+    "correta": "B",
+    "explicacao": "Verde libera a passagem, mas o condutor ainda deve ceder a quem ainda cruzava com sinal favorável e aos pedestres.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 44; CONTRAN."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "facil",
+    "enunciado": "Direção defensiva é conduzir de modo a prevenir acidentes, apesar das ações incorretas dos outros e das condições adversas. Qual atitude faz parte desse conceito?",
+    "alternativas": {
+      "A": "Confiar que todos respeitarão a sinalização",
+      "B": "Antecipar riscos, manter distância segura e atenção constante",
+      "C": "Usar o celular para economizar tempo",
+      "D": "Dirigir sempre no limite máximo da via"
+    },
+    "correta": "B",
+    "explicacao": "Direção defensiva exige vigilância, distância de segurança e decisões que reduzam o risco de colisão.",
+    "referencia": "Questão de treinamento autoral. CTB — dever de cuidado; material educativo DETRAN-MG."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "medio",
+    "enunciado": "A distância de seguimento segura deve considerar principalmente:",
+    "alternativas": {
+      "A": "Apenas a velocidade do veículo da frente",
+      "B": "Velocidade, condição do pavimento, visibilidade e tempo de reação do condutor",
+      "C": "Somente o tamanho do seu carro",
+      "D": "A cor do veículo precedente"
+    },
+    "correta": "B",
+    "explicacao": "Espaço para frear depende da velocidade, aderência, visibilidade e tempo de percepção e reação.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 29, II; educação para o trânsito."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "facil",
+    "enunciado": "Em pista molhada, a distância de frenagem, em geral:",
+    "alternativas": {
+      "A": "Diminui",
+      "B": "Permanece igual",
+      "C": "Aumenta",
+      "D": "Não depende do pavimento"
+    },
+    "correta": "C",
+    "explicacao": "Menor aderência na chuva aumenta a distância necessária para parar o veículo com segurança.",
+    "referencia": "Questão de treinamento autoral. Direção defensiva; CTB — adaptação às condições."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "medio",
+    "enunciado": "O 'ponto cego' em veículos é a área:",
+    "alternativas": {
+      "A": "Visível apenas pelo retrovisor interno",
+      "B": "Não coberta pelos espelhos, exigindo verificação por olhar por cima do ombro antes de mudar de faixa",
+      "C": "Dianteira do para-brisa",
+      "D": "Sempre à esquerda do motorista"
+    },
+    "correta": "B",
+    "explicacao": "Espelhos não mostram toda a lateral/traseira; verificar o ponto cego reduz risco ao mudar de direção.",
+    "referencia": "Questão de treinamento autoral. Material de direção defensiva; Portal DETRAN-MG (educação)."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "dificil",
+    "enunciado": "Aquaplanagem ocorre quando:",
+    "alternativas": {
+      "A": "O motor superaquece",
+      "B": "Os pneus perdem contato com o solo por camada de água, reduzindo a aderência",
+      "C": "O freio de mão trava sozinho",
+      "D": "A bateria descarrega"
+    },
+    "correta": "B",
+    "explicacao": "Em pista alagada, o pneu pode 'flutuar' sobre a água; reduzir velocidade e evitar freadas bruscas ajuda a controlar.",
+    "referencia": "Questão de treinamento autoral. Direção defensiva; CONTRAN/educação no trânsito."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "facil",
+    "enunciado": "Usar o celular handheld (na mão) enquanto dirige:",
+    "alternativas": {
+      "A": "Melhora a concentração",
+      "B": "Distrai o condutor e aumenta o risco de acidente, além de poder configurar infração",
+      "C": "É recomendado apenas em filas",
+      "D": "Substitui o uso de setas"
+    },
+    "correta": "B",
+    "explicacao": "Distração reduz tempo de reação; o CTB pune o uso do celular enquanto conduz, salvo exceções legais.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 252; direção defensiva."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "medio",
+    "enunciado": "Ao aproximar-se de cruzamento, condutor defensivo deve:",
+    "alternativas": {
+      "A": "Acelerar para passar antes",
+      "B": "Reduzir velocidade, observar sinalização, pedestres e veículos cruzando",
+      "C": "Fechar os olhos brevemente",
+      "D": "Desligar os faróis"
+    },
+    "correta": "B",
+    "explicacao": "Cruzamentos concentram conflitos; reduzir velocidade e ampliar observação previne colisões.",
+    "referencia": "Questão de treinamento autoral. CTB, arts. 34 e 44; direção defensiva."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "facil",
+    "enunciado": "Cinto de segurança em colisão ajuda principalmente a:",
+    "alternativas": {
+      "A": "Ligar o rádio",
+      "B": "Manter o ocupante na posição e reduzir lesões por impacto ou ejeção",
+      "C": "Aumentar a velocidade",
+      "D": "Evitar multas apenas"
+    },
+    "correta": "B",
+    "explicacao": "O cinto limita o movimento do corpo no impacto, reduzindo ferimentos graves.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 65; direção defensiva."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "medio",
+    "enunciado": "Fadiga ao volante é perigosa porque:",
+    "alternativas": {
+      "A": "Aumenta a atenção",
+      "B": "Prolonga tempo de reação e pode causar micro-sonos",
+      "C": "Melhora a visão noturna",
+      "D": "Reduz o consumo de combustível"
+    },
+    "correta": "B",
+    "explicacao": "Cansaço prejudica julgamento e reflexos; pausas e sono adequado são essenciais antes de dirigir.",
+    "referencia": "Questão de treinamento autoral. Educação para o trânsito; Portal DETRAN-MG."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "dificil",
+    "enunciado": "Regra prática de distância em condições normais: manter distância que permita parar se o veículo da frente frear bruscamente. Isso está relacionado ao:",
+    "alternativas": {
+      "A": "Consumo de óleo",
+      "B": "Espaço de frenagem e tempo de reação",
+      "C": "Tipo de pintura do carro",
+      "D": "Número de portas"
+    },
+    "correta": "B",
+    "explicacao": "Distância segura cobre o tempo até perceber o perigo mais a distância percorrida durante a frenagem.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 29; direção defensiva."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "facil",
+    "enunciado": "Ao dirigir à noite, condutor defensivo deve:",
+    "alternativas": {
+      "A": "Usar farol alto o tempo todo em vias urbanas",
+      "B": "Usar iluminação adequada, reduzir velocidade se a visibilidade for menor e evitar ofuscar outros",
+      "C": "Desligar os faróis para economizar bateria",
+      "D": "Olhar fixamente para faróis de quem vem em sentido contrário"
+    },
+    "correta": "B",
+    "explicacao": "Visibilidade reduzida exige faróis corretos, velocidade compatível e cortesia com o alto/baixo.",
+    "referencia": "Questão de treinamento autoral. CTB, arts. 40 e 41; direção defensiva."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "medio",
+    "enunciado": "Ultrapassagem segura exige, entre outros cuidados:",
+    "alternativas": {
+      "A": "Ultrapassar em curva fechada sem visibilidade",
+      "B": "Visibilidade suficiente, sinalização com seta e retorno à faixa sem cortar o ultrapassado",
+      "C": "Buzinar continuamente em zona urbana residencial à noite",
+      "D": "Ultrapassar pela direita em rodovia sempre"
+    },
+    "correta": "B",
+    "explicacao": "Ultrapassar só com visibilidade e margem de segurança; usar seta e voltar à faixa direita após concluir.",
+    "referencia": "Questão de treinamento autoral. CTB, arts. 28 e 29; direção defensiva."
+  },
+  {
+    "categoria_slug": "direcao-defensiva",
+    "dificuldade": "facil",
+    "enunciado": "Em neblina ou chuva forte, acender faróis baixos (e, se previsto, luz de neblina dianteira conforme norma) serve para:",
+    "alternativas": {
+      "A": "Ofuscar outros motoristas de propósito",
+      "B": "Ser visto e melhorar a visão, com velocidade reduzida",
+      "C": "Desligar o limpador",
+      "D": "Substituir o cinto de segurança"
+    },
+    "correta": "B",
+    "explicacao": "Iluminação correta aumenta visibilidade e presença do veículo; velocidade deve ser compatível com a condição.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 40; Resoluções CONTRAN sobre iluminação."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "facil",
+    "enunciado": "Em acidente de trânsito, a primeira providência do condutor envolvido, quando possível, deve ser:",
+    "alternativas": {
+      "A": "Fugir do local para evitar multa",
+      "B": "Prestar socorro às vítimas e acionar autoridades (SAMU 192, Bombeiros 193, Polícia 190)",
+      "C": "Mover todas as vítimas imediatamente sem avaliar",
+      "D": "Filmear para redes sociais antes de ajudar"
+    },
+    "correta": "B",
+    "explicacao": "O CTB impõe prestar socorro; chamar serviços de emergência salva vidas enquanto se aguarda equipe qualificada.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 176; primeiros socorros."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "medio",
+    "enunciado": "Vítima consciente, com sangramento externo abundante em membro. Conduta inicial adequada:",
+    "alternativas": {
+      "A": "Aplicar torniquete sempre como primeira medida",
+      "B": "Comprimir o local com pano limpo e elevar o membro se possível, mantendo a vítima calma",
+      "C": "Oferecer álcool para desinfetar por dentro",
+      "D": "Colocar a vítima sentada e deixá-la sozinha"
+    },
+    "correta": "B",
+    "explicacao": "Pressão direta controla sangramento; torniquete é exceção. Buscar atendimento médico urgente.",
+    "referencia": "Questão de treinamento autoral. Noções de primeiros socorros; CTB — dever de socorro."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "facil",
+    "enunciado": "Qual número ligar para o Serviço de Atendimento Móvel de Urgência (SAMU) no Brasil?",
+    "alternativas": {
+      "A": "190",
+      "B": "191",
+      "C": "192",
+      "D": "193"
+    },
+    "correta": "C",
+    "explicacao": "O SAMU atende emergências médicas pré-hospitalares pelo telefone 192.",
+    "referencia": "Questão de treinamento autoral. Ministério da Saúde; educação DETRAN."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "medio",
+    "enunciado": "Suspeita de fratura exposta após colisão. O que NÃO se deve fazer na cena?",
+    "alternativas": {
+      "A": "Imobilizar grosso modo o membro na posição encontrada",
+      "B": "Cobrir ferida com material limpo",
+      "C": "Repor osso exposto ou movimentar o membro desnecessariamente",
+      "D": "Manter a vítima aquecida e monitorada"
+    },
+    "correta": "C",
+    "explicacao": "Não reintroduzir osso nem movimentar sem necessidade; imobilizar e aguardar socorro especializado.",
+    "referencia": "Questão de treinamento autoral. Primeiros socorros básicos; CTB."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "dificil",
+    "enunciado": "Vítima inconsciente, respirando, em via pública após acidente. Posição lateral de segurança serve para:",
+    "alternativas": {
+      "A": "Acelerar a respiração artificial",
+      "B": "Manter vias aéreas desobstruídas e evitar engasgo se vomitar",
+      "C": "Substituir atendimento médico",
+      "D": "Aplicar em queimaduras"
+    },
+    "correta": "B",
+    "explicacao": "Deitar de lado mantém a língua afastada da garganta e facilita drenagem de secreções.",
+    "referencia": "Questão de treinamento autoral. Primeiros socorros; material educativo DETRAN-MG."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "facil",
+    "enunciado": "Kit de primeiros socorros no veículo deve conter, idealmente:",
+    "alternativas": {
+      "A": "Apenas documentos do carro",
+      "B": "Itens básicos como luvas, gazes, ataduras e orientação de uso, conforme recomendações de segurança",
+      "C": "Medicamentos controlados sem receita",
+      "D": "Ferramentas de pintura"
+    },
+    "correta": "B",
+    "explicacao": "Material simples para contenção de sangramento e proteção ajuda até chegar o socorro profissional.",
+    "referencia": "Questão de treinamento autoral. Resoluções CONTRAN sobre equipamentos; educação no trânsito."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "medio",
+    "enunciado": "Choque elétrico de vítima presa a fio caído. Conduta segura:",
+    "alternativas": {
+      "A": "Segurar a vítima com as mãos nuas imediatamente",
+      "B": "Desenergizar a fonte se possível e usar material isolante; não tocar na vítima enquanto houver contato com corrente",
+      "C": "Jogar água no fio",
+      "D": "Puxar o fio com pé descalço"
+    },
+    "correta": "B",
+    "explicacao": "Interromper a corrente ou isolar com material não condutor evita eletrocussão de quem presta socorro.",
+    "referencia": "Questão de treinamento autoral. Primeiros socorros; NR/educação de segurança."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "facil",
+    "enunciado": "Queimadura química ou térmica leve na pele. Medida inicial:",
+    "alternativas": {
+      "A": "Passar manteiga ou pasta de dente",
+      "B": "Resfriar com água corrente limpa por tempo adequado e proteger o local",
+      "C": "Estourar bolhas sempre",
+      "D": "Expor ao sol para secar"
+    },
+    "correta": "B",
+    "explicacao": "Água fria reduz dano térmico; não aplicar substâncias caseiras; buscar médico se extensa.",
+    "referencia": "Questão de treinamento autoral. Primeiros socorros básicos."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "medio",
+    "enunciado": "Sinalizar acidente à noite em rodovia reduz risco de novas colisões. Item útil previsto para veículos:",
+    "alternativas": {
+      "A": "Triângulo de sinalização ou dispositivo equivalente homologado",
+      "B": "Fogos de artifício",
+      "C": "Pintura no asfalto",
+      "D": "Som alto do rádio"
+    },
+    "correta": "A",
+    "explicacao": "Dispositivo refletivo de sinalização alerta outros condutores; CTB exige equipamento de segurança no veículo.",
+    "referencia": "Questão de treinamento autoral. CTB e Resoluções CONTRAN — equipamentos obrigatórios."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "dificil",
+    "enunciado": "Parada cardiorrespiratória em adulto. A sequência atual recomendada para leigos (RCP) prioriza:",
+    "alternativas": {
+      "A": "Apenas respiração boca a boca, sem compressões",
+      "B": "Compressões torácicas ritmadas e, se treinado, ventilações conforme protocolo atual",
+      "C": "Aguardar sem fazer nada",
+      "D": "Massagear apenas os braços"
+    },
+    "correta": "B",
+    "explicacao": "Compressões mantêm circulação até desfibrilador ou SAMU; cursos oficiais ensinam a sequência completa.",
+    "referencia": "Questão de treinamento autoral. Diretrizes de RCP; educação em primeiros socorros."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "facil",
+    "enunciado": "Deixar de prestar socorro em acidente quando possível pode configurar:",
+    "alternativas": {
+      "A": "Apenas falta de educação, sem consequência legal",
+      "B": "Infração gravíssima prevista no CTB, além de responsabilidade moral",
+      "C": "Infração leve",
+      "D": "Benefício fiscal"
+    },
+    "correta": "B",
+    "explicacao": "O CTB pune quem deixa de prestar socorro à vítima de acidente ou não facilita atendimento.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 176."
+  },
+  {
+    "categoria_slug": "primeiros-socorros",
+    "dificuldade": "medio",
+    "enunciado": "Vítima com possível lesão na coluna após capotamento. Movimentá-la deve ser:",
+    "alternativas": {
+      "A": "Feito sempre pelos presentes para colocá-la no carro",
+      "B": "Evitado, salvo risco iminente (ex.: incêndio), mantendo cabeça alinhada ao tronco",
+      "C": "Feito puxando pelos braços rapidamente",
+      "D": "Substituído por exercícios de alongamento"
+    },
+    "correta": "B",
+    "explicacao": "Movimentação inadequada pode agravar lesão medular; aguardar equipe treinada.",
+    "referencia": "Questão de treinamento autoral. Primeiros socorros; CTB."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "facil",
+    "enunciado": "Descartar óleo usado de motor ou peças automotivas em rua, córrego ou lixo comum:",
+    "alternativas": {
+      "A": "É permitido se for pouca quantidade",
+      "B": "Polui o meio ambiente e deve ser levado a coleta/reciclagem adequada",
+      "C": "Melhora o asfalto",
+      "D": "É exigido pelo CTB"
+    },
+    "correta": "B",
+    "explicacao": "Resíduos automotivos contaminam solo e água; descarte correto é dever ambiental e cívico.",
+    "referencia": "Questão de treinamento autoral. Política Nacional de Resíduos Sólidos; educação DETRAN."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "medio",
+    "enunciado": "Veículos com catalisador contribuem para reduzir a emissão de:",
+    "alternativas": {
+      "A": "Apenas ruído",
+      "B": "Gases poluentes do escapamento, transformando parte deles em substâncias menos nocivas",
+      "C": "Consumo de água",
+      "D": "Peso do veículo"
+    },
+    "correta": "B",
+    "explicacao": "O catalisador acelera reações químicas que diminuem poluentes como CO, HC e NOx.",
+    "referencia": "Questão de treinamento autoral. Controle de emissões veiculares (CONAMA/CONTRAN)."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "facil",
+    "enunciado": "Manutenção preventiva do motor bem regulada tende a:",
+    "alternativas": {
+      "A": "Aumentar a fumaça preta sempre",
+      "B": "Melhorar eficiência e reduzir emissões e consumo excessivo",
+      "C": "Eliminar a necessidade de CNH",
+      "D": "Proibir o uso de filtro de ar"
+    },
+    "correta": "B",
+    "explicacao": "Motor desregulado queima mal e polui mais; revisões periódicas ajudam meio ambiente e bolso.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica e meio ambiente; Portal DETRAN-MG."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "medio",
+    "enunciado": "Inspeção veicular de emissões (quando exigida na região) visa:",
+    "alternativas": {
+      "A": "Aumentar poluição",
+      "B": "Verificar se o veículo atende limites de poluentes e ruído",
+      "C": "Substituir o licenciamento",
+      "D": "Isentar de IPVA"
+    },
+    "correta": "B",
+    "explicacao": "Programas de inspeção buscam identificar veículos poluentes e exigir reparo.",
+    "referencia": "Questão de treinamento autoral. Resoluções CONAMA/CONTRAN sobre emissões."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "facil",
+    "enunciado": "Jogar bituca de cigarro ou lixo pela janela do veículo em movimento:",
+    "alternativas": {
+      "A": "É infração e agride o meio ambiente",
+      "B": "É recomendado para limpar o carro",
+      "C": "Só é proibido em rodovias",
+      "D": "Ajuda na compostagem imediata"
+    },
+    "correta": "A",
+    "explicacao": "Lixo arremessado polui e pode causar incêndios; o CTB prevê penalidade para essa conduta.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 252."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "dificil",
+    "enunciado": "Combustível adulterado ou de procedência duvidosa pode:",
+    "alternativas": {
+      "A": "Melhorar sempre o desempenho",
+      "B": "Danificar motor, aumentar emissões e invalidar garantias",
+      "C": "Reduzir multas de trânsito",
+      "D": "Substituir o extintor"
+    },
+    "correta": "B",
+    "explicacao": "Abastecer em postos confiáveis protege motor, reduz poluição e evita prejuízos mecânicos.",
+    "referencia": "Questão de treinamento autoral. ANP/educação ambiental no trânsito."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "medio",
+    "enunciado": "Transporte de carga a granel sem lona ou enceramento adequado, espalhando material na via, pode:",
+    "alternativas": {
+      "A": "Ser indiferente ao ambiente",
+      "B": "Causar poluição, acidentes e configurar infração",
+      "C": "Ser obrigatório",
+      "D": "Reduzir consumo de combustível"
+    },
+    "correta": "B",
+    "explicacao": "Carga mal acondicionada polui e cria risco; o CTB exige transporte seguro da carga.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 99; meio ambiente."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "facil",
+    "enunciado": "Desligar o motor em paradas prolongadas (quando seguro e permitido) ajuda a:",
+    "alternativas": {
+      "A": "Aumentar emissões de CO2 parado",
+      "B": "Reduzir consumo de combustível e emissões desnecessárias",
+      "C": "Estourar pneus",
+      "D": "Evitar uso de cinto"
+    },
+    "correta": "B",
+    "explicacao": "Motor ocioso consome e polui sem deslocar; desligar em filas longas pode ser ecologicamente positivo.",
+    "referencia": "Questão de treinamento autoral. Educação ambiental; boas práticas de condução."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "medio",
+    "enunciado": "Ruído excessivo de escapamento modificado irregularmente:",
+    "alternativas": {
+      "A": "É desejável em áreas residenciais",
+      "B": "Pode configurar infração e poluição sonora",
+      "C": "Substitui a buzina",
+      "D": "Isenta de vistoria"
+    },
+    "correta": "B",
+    "explicacao": "Alterações que aumentam ruído acima do permitido agridem saúde pública e podem ser autuadas.",
+    "referencia": "Questão de treinamento autoral. CTB e normas de emissão acústica (CONTRAN/CONAMA)."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "facil",
+    "enunciado": "Pneus com desgaste irregular ou calibragem incorreta tendem a:",
+    "alternativas": {
+      "A": "Reduzir consumo sempre",
+      "B": "Aumentar consumo de combustível e desgaste prematuro",
+      "C": "Melhorar a emissão de gases",
+      "D": "Eliminar aquaplanagem"
+    },
+    "correta": "B",
+    "explicacao": "Pneus mal conservados reduzem eficiência e segurança, elevando consumo e poluição.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica e meio ambiente."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "dificil",
+    "enunciado": "Veículos elétricos ou híbridos, quando comparados a modelos equivalentes a combustão, em uso urbano:",
+    "alternativas": {
+      "A": "Sempre poluem mais no exhaust",
+      "B": "Podem reduzir emissões locais de escape, dependendo da matriz energética e do modelo",
+      "C": "Não precisam de freios",
+      "D": "São proibidos no CTB"
+    },
+    "correta": "B",
+    "explicacao": "Tecnologias alternativas podem diminuir poluição no ponto de uso; impacto total depende de energia e ciclo de vida.",
+    "referencia": "Questão de treinamento autoral. Educação ambiental; políticas de mobilidade."
+  },
+  {
+    "categoria_slug": "meio-ambiente",
+    "dificuldade": "medio",
+    "enunciado": "Lavar veículo em rio ou córrego com detergentes comuns:",
+    "alternativas": {
+      "A": "É prática sustentável",
+      "B": "Contamina a água e deve ser evitado; usar locais apropriados de lavagem",
+      "C": "É exigido anualmente",
+      "D": "Reduz IPVA"
+    },
+    "correta": "B",
+    "explicacao": "Esgoto de lavagem com produtos químicos prejudica cursos d'água; use áreas de contenção.",
+    "referencia": "Questão de treinamento autoral. Legislação ambiental; cidadania no trânsito."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "facil",
+    "enunciado": "A luz vermelha de óleo no painel acesa durante a marcha indica:",
+    "alternativas": {
+      "A": "Tanque cheio",
+      "B": "Pressão de óleo do motor baixa — parar o veículo com segurança e verificar",
+      "C": "Pneu furado",
+      "D": "Farol alto ligado"
+    },
+    "correta": "B",
+    "explicacao": "Pressão de óleo insuficiente pode causar dano grave ao motor; interromper a condução é prudente.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica veicular; educação DETRAN."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "medio",
+    "enunciado": "Sistema de freios a disco usa pastilhas que:",
+    "alternativas": {
+      "A": "Lubrificam o motor",
+      "B": "Apertam o disco para reduzir a velocidade das rodas",
+      "C": "Carregam a bateria",
+      "D": "Substituem o cinto de segurança"
+    },
+    "correta": "B",
+    "explicacao": "Pastilhas pressionam discos rotativos, convertendo energia cinética em calor e freada.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica — sistema de freios."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "facil",
+    "enunciado": "Calibragem correta dos pneus deve seguir:",
+    "alternativas": {
+      "A": "Qualquer valor aleatório",
+      "B": "Especificação do fabricante do veículo (porta, manual ou etiqueta)",
+      "C": "Sempre o máximo da borracharia",
+      "D": "Zero PSI"
+    },
+    "correta": "B",
+    "explicacao": "Pressão indicada pelo fabricante garante segurança, aderência e desgaste uniforme.",
+    "referencia": "Questão de treinamento autoral. Manual do proprietário; CONTRAN."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "medio",
+    "enunciado": "Bateria descarregada pode impedir:",
+    "alternativas": {
+      "A": "Abrir portas manualmente",
+      "B": "Dar partida no motor de arranque e alimentar sistemas elétricos essenciais",
+      "C": "Usar cinto",
+      "D": "Ler placa de PARE"
+    },
+    "correta": "B",
+    "explicacao": "A bateria fornece energia para partida e circuitos elétricos quando o motor está parado.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica — sistema elétrico."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "dificil",
+    "enunciado": "Fluido de freio com nível baixo persistente pode indicar:",
+    "alternativas": {
+      "A": "Pneus novos",
+      "B": "Desgaste excessivo de pastilhas ou possível vazamento no sistema — exige verificação",
+      "C": "Ar-condicionado ligado",
+      "D": "Limpador desligado"
+    },
+    "correta": "B",
+    "explicacao": "Queda anormal do fluido compromete frenagem; inspecionar vazamentos e componentes.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica — freios hidráulicos."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "facil",
+    "enunciado": "Extintor de incêndio no veículo (quando exigido) deve estar:",
+    "alternativas": {
+      "A": "Vencido e sem lacre",
+      "B": "Dentro da validade, acessível e com carga adequada",
+      "C": "Guardado no porta-malas sem identificação",
+      "D": "Substituído por água com gás"
+    },
+    "correta": "B",
+    "explicacao": "Equipamento de combate a incêndio precisa estar válido e pronto para uso conforme normas.",
+    "referencia": "Questão de treinamento autoral. Resoluções CONTRAN — equipamentos obrigatórios."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "medio",
+    "enunciado": "Correia dentada ou corrente de comando rompida em motor pode causar:",
+    "alternativas": {
+      "A": "Melhoria de consumo",
+      "B": "Danos graves ao motor se não houver válvulas de segurança adequadas",
+      "C": "Aumento automático de pneus",
+      "D": "Cancelamento de multas"
+    },
+    "correta": "B",
+    "explicacao": "Rompimento pode fazer válvulas e pistões colidirem em motores interferentes; manutenção preventiva é vital.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica — motor."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "facil",
+    "enunciado": "Espelhos retrovisores ajustados corretamente ajudam o condutor a:",
+    "alternativas": {
+      "A": "Ver apenas o interior do carro",
+      "B": "Monitorar tráfego traseiro e lateral com menor ponto cego",
+      "C": "Evitar uso de setas",
+      "D": "Desligar faróis"
+    },
+    "correta": "B",
+    "explicacao": "Ajuste adequado dos espelhos complementa a visão direta e aumenta segurança.",
+    "referencia": "Questão de treinamento autoral. CTB — condições do veículo; direção defensiva."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "medio",
+    "enunciado": "Luz indicadora de ABS acesa constantemente após partida pode significar:",
+    "alternativas": {
+      "A": "Sistema antitravamento com falha — requer diagnóstico",
+      "B": "Pneu calibrado",
+      "C": "CNH vencida",
+      "D": "Farol queimado sempre normal"
+    },
+    "correta": "A",
+    "explicacao": "ABS ajuda a manter controle na frenagem; luz fixa indica mau funcionamento do sistema.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica — freios ABS."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "dificil",
+    "enunciado": "Suspensão com amortecedores muito desgastados pode provocar:",
+    "alternativas": {
+      "A": "Melhor estabilidade em curvas",
+      "B": "Instabilidade, aquaplanagem precoce e maior distância de frenagem",
+      "C": "Redução de peso do veículo",
+      "D": "Aumento de validade da CNH"
+    },
+    "correta": "B",
+    "explicacao": "Amortecedores ruins reduzem contato uniforme dos pneus com o solo, prejudicando segurança.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica — suspensão."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "facil",
+    "enunciado": "Antes de viagem longa, verificação básica inclui:",
+    "alternativas": {
+      "A": "Ignorar nível de água do radiador",
+      "B": "Checar pneus, fluidos, luzes e documentos do veículo",
+      "C": "Remover retrovisores",
+      "D": "Desligar freios"
+    },
+    "correta": "B",
+    "explicacao": "Inspeção simples previne pane e acidentes por falha mecânica evitável.",
+    "referencia": "Questão de treinamento autoral. CTB — veículo em condições de segurança; Portal DETRAN-MG."
+  },
+  {
+    "categoria_slug": "mecanica",
+    "dificuldade": "medio",
+    "enunciado": "Direção hidráulica ou elétrica com falha pode manifestar-se por:",
+    "alternativas": {
+      "A": "Volante mais leve sempre",
+      "B": "Esforço excessivo para girar o volante ou ruídos anormais",
+      "C": "Aumento automático de velocidade",
+      "D": "Troca de categoria da CNH"
+    },
+    "correta": "B",
+    "explicacao": "Assistência de direção comprometida dificulta manobras e exige reparo.",
+    "referencia": "Questão de treinamento autoral. Mecânica básica — direção."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "facil",
+    "enunciado": "Estacionar em vaga reservada a pessoa com deficiência sem credencial válida é infração:",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Média",
+      "C": "Grave",
+      "D": "Gravíssima"
+    },
+    "correta": "D",
+    "explicacao": "Uso indevido de vaga PCD é gravíssima, além de falta de respeito à acessibilidade.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 181, XX."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "medio",
+    "enunciado": "Ultrapassar pelo acostamento configura infração de natureza:",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Média",
+      "C": "Grave",
+      "D": "Gravíssima"
+    },
+    "correta": "D",
+    "explicacao": "Transitar ou ultrapassar pelo acostamento é conduta gravíssima prevista no CTB.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 203."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "facil",
+    "enunciado": "Dirigir sem possuir CNH, quando exigida, é infração:",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Grave",
+      "C": "Gravíssima",
+      "D": "Apenas advertência sempre"
+    },
+    "correta": "C",
+    "explicacao": "Conduzir sem habilitação ou com CNH cassada/suspensa é gravíssima.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 162."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "medio",
+    "enunciado": "Avançar o sinal vermelho do semáforo ou o de parada obrigatória, salvo exceções legais, é:",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Média",
+      "C": "Grave",
+      "D": "Gravíssima"
+    },
+    "correta": "D",
+    "explicacao": "Desrespeitar sinal vermelho ou PARE é uma das infrações mais graves e perigosas.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 208."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "dificil",
+    "enunciado": "Recusar-se a submeter a teste, exame ou procedimento legal para verificar influência de álcool ou substância psicoativa:",
+    "alternativas": {
+      "A": "Não tem consequência",
+      "B": "Configura infração gravíssima prevista no CTB",
+      "C": "Gera apenas advertência",
+      "D": "Isenta de responsabilidade"
+    },
+    "correta": "B",
+    "explicacao": "A recusa ao procedimento legal previsto tem penalidade equivalente à condução sob influência.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 165-A."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "facil",
+    "enunciado": "Não usar cinto de segurança como condutor configura infração:",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Grave",
+      "C": "Gravíssima",
+      "D": "Média sempre"
+    },
+    "correta": "B",
+    "explicacao": "Deixar de usar cinto de segurança é infração grave, com multa e pontos na CNH.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 167."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "medio",
+    "enunciado": "Excesso de velocidade até 20% acima do limite, em regra, classifica-se como infração:",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Média",
+      "C": "Grave",
+      "D": "Gravíssima"
+    },
+    "correta": "B",
+    "explicacao": "Faixas de excesso de velocidade têm gradações; até 20% acima costuma ser média (ver tabela atual do CTB).",
+    "referencia": "Questão de treinamento autoral. CTB, art. 218."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "facil",
+    "enunciado": "Estacionar sobre faixa de pedestres na mudança de sinal:",
+    "alternativas": {
+      "A": "É permitido se for rápido",
+      "B": "Pode obstruir cruzamento e configurar infração",
+      "C": "Reduz multas",
+      "D": "É obrigatório"
+    },
+    "correta": "B",
+    "explicacao": "Parar ou estacionar em local proibido, inclusive sobre faixa, gera autuação e risco a pedestres.",
+    "referencia": "Questão de treinamento autoral. CTB, arts. 181 e 182."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "medio",
+    "enunciado": "Dirigir ameaçando pedestres ou veículos configura infração:",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Grave",
+      "C": "Gravíssima",
+      "D": "Inexistente"
+    },
+    "correta": "C",
+    "explicacao": "Conduzir de forma ameaçadora à integridade de pessoas ou patrimônio é gravíssima.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 170."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "dificil",
+    "enunciado": "Acumular pontos na CNH dentro do período pode levar à:",
+    "alternativas": {
+      "A": "Renovação automática sem exames",
+      "B": "Suspensão do direito de dirigir, conforme regras do CONTRAN",
+      "C": "Isenção de IPVA",
+      "D": "Categoria A automática"
+    },
+    "correta": "B",
+    "explicacao": "Sistema de pontuação prevê suspensão e, em casos graves, cassação da habilitação.",
+    "referencia": "Questão de treinamento autoral. CTB, arts. 259 a 261; Resoluções CONTRAN."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "facil",
+    "enunciado": "Transitar na contramão em via de sentido único é infração:",
+    "alternativas": {
+      "A": "Leve",
+      "B": "Média",
+      "C": "Grave",
+      "D": "Gravíssima"
+    },
+    "correta": "D",
+    "explicacao": "Circular em sentido proibido coloca todos em risco e é gravíssima.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 186, II."
+  },
+  {
+    "categoria_slug": "infracoes",
+    "dificuldade": "medio",
+    "enunciado": "Multa por infração de trânsito pode ser acompanhada de:",
+    "alternativas": {
+      "A": "Apenas elogio",
+      "B": "Pontuação na CNH e medidas administrativas conforme gravidade",
+      "C": "Cancelamento automático do CPF",
+      "D": "Proibição de usar calçado"
+    },
+    "correta": "B",
+    "explicacao": "Penalidades incluem multa, pontos, retenção/apreensão do veículo e suspensão, conforme o caso.",
+    "referencia": "Questão de treinamento autoral. CTB, arts. 231 e 258; CONTRAN."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "facil",
+    "enunciado": "Em cruzamento não sinalizado, a preferência básica do CTB é de quem:",
+    "alternativas": {
+      "A": "Vem pela esquerda do condutor",
+      "B": "Vem pela direita do condutor",
+      "C": "Chega por último sempre",
+      "D": "Está em veículo maior sempre"
+    },
+    "correta": "B",
+    "explicacao": "Regra geral: cede passagem a quem vem da direita, salvo outras normas específicas.",
+    "referencia": "Questão de treinamento autoral. CTB (Lei 9.503/1997), art. 29."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "medio",
+    "enunciado": "Rotatória (trevo circular) sinalizada: quem já circula dentro da rotatória tem:",
+    "alternativas": {
+      "A": "Sempre que parar",
+      "B": "Preferência sobre quem vai ingressar, salvo sinalização em contrário",
+      "C": "Proibição de sair",
+      "D": "Preferência apenas de caminhões"
+    },
+    "correta": "B",
+    "explicacao": "Quem está na rotatória tem prioridade; quem entra deve ceder passagem.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 29; CONTRAN."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "facil",
+    "enunciado": "Ao convergir à esquerda em cruzamento com semáforo, deve-se:",
+    "alternativas": {
+      "A": "Cortar faixa contrária sem sinalizar",
+      "B": "Sinalizar com antecedência e dar passagem a pedestres e veículos conforme sinal",
+      "C": "Acelerar no meio da faixa de pedestres",
+      "D": "Desligar os faróis"
+    },
+    "correta": "B",
+    "explicacao": "Conversão exige seta, atenção ao fluxo oposto e respeito aos pedestres na faixa.",
+    "referencia": "Questão de treinamento autoral. CTB, arts. 34 e 44."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "medio",
+    "enunciado": "Ultrapassagem pela direita é permitida quando:",
+    "alternativas": {
+      "A": "Sempre em rodovia",
+      "B": "O veículo da frente sinalizou conversão à esquerda e houver espaço seguro, entre outras hipóteses legais",
+      "C": "Na calçada",
+      "D": "Em faixa de pedestres"
+    },
+    "correta": "B",
+    "explicacao": "Regra geral é ultrapassar pela esquerda; a direita só nas situações previstas no CTB.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 29, § 2º."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "dificil",
+    "enunciado": "Veículo parado em fila dupla (segunda fila ao lado de veículos estacionados legalmente):",
+    "alternativas": {
+      "A": "É prática recomendada",
+      "B": "Obstrui via e configura infração de estacionamento irregular",
+      "C": "Tem preferência de passagem",
+      "D": "Substitui o ponto de táxi"
+    },
+    "correta": "B",
+    "explicacao": "Estacionar em fila dupla atrapalha fluxo e é autuável.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 181, VIII."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "facil",
+    "enunciado": "Pedestre iniciou travessia na faixa com sinal favorável. Condutor com sinal verde deve:",
+    "alternativas": {
+      "A": "Acelerar para passar antes",
+      "B": "Aguardar a conclusão da travessia se o pedestre ainda estiver na faixa",
+      "C": "Buzinar até o pedestre correr",
+      "D": "Desviar pela calçada"
+    },
+    "correta": "B",
+    "explicacao": "Mesmo com verde, deve-se respeitar quem ainda cruza com segurança na faixa.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 44."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "medio",
+    "enunciado": "Em rodovia, salvo sinalização diversa, qual faixa deve ser usada normalmente por veículos lentos?",
+    "alternativas": {
+      "A": "Faixa da esquerda",
+      "B": "Faixa da direita",
+      "C": "Acostamento como pista",
+      "D": "Canteiro central"
+    },
+    "correta": "B",
+    "explicacao": "Veículos mais lentos devem usar faixa da direita, deixando a esquerda para ultrapassagens.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 29."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "facil",
+    "enunciado": "Marcha à ré deve ser usada:",
+    "alternativas": {
+      "A": "Para percorrer longas distâncias rapidamente",
+      "B": "Por pequena distância, com segurança, para manobras como estacionar",
+      "C": "Em rodovia sempre",
+      "D": "Sem olhar espelhos"
+    },
+    "correta": "B",
+    "explicacao": "Ré é para manobra curta e controlada, com visibilidade e cuidado com pedestres.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 38."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "medio",
+    "enunciado": "Ciclistas em via compartilhada devem ser ultrapassados com:",
+    "alternativas": {
+      "A": "Distância mínima legal lateral e velocidade que não coloque em risco",
+      "B": "Buzina contínua a centímetros",
+      "C": "Empurrão leve",
+      "D": "Farol alto ligado de propósito"
+    },
+    "correta": "A",
+    "explicacao": "O CTB exige distância lateral mínima ao ultrapassar ciclistas (1,5 m em vias urbanas, salvo norma diversa).",
+    "referencia": "Questão de treinamento autoral. CTB, art. 29, § 2º, alterações recentes."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "dificil",
+    "enunciado": "Veículo de transporte coletivo parado em ponto sinalizado: ultrapassá-lo pela direita onde há embarque:",
+    "alternativas": {
+      "A": "É sempre permitido em alta velocidade",
+      "B": "Pode ser proibido ou perigoso; respeitar sinalização e pedestres embarcando",
+      "C": "É obrigatório",
+      "D": "Dispensa uso de setas"
+    },
+    "correta": "B",
+    "explicacao": "Ultrapassagem junto a ônibus parado exige cautela com passageiros que atravessam a via.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 29; circulação urbana."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "facil",
+    "enunciado": "Entrar ou sair de garagem, lote ou estacionamento exige:",
+    "alternativas": {
+      "A": "Prioridade sobre todos sempre",
+      "B": "Ceder passagem aos pedestres e veículos que transitam pela via",
+      "C": "Buzinar forte",
+      "D": "Ignorar calçada"
+    },
+    "correta": "B",
+    "explicacao": "Quem sai de imóvel ou estacionamento deve ceder passagem a quem já circula na via ou calçada.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 36."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "medio",
+    "enunciado": "Em via com duas faixas no mesmo sentido, conversão à direita deve ser feita:",
+    "alternativas": {
+      "A": "Pela faixa mais à esquerda",
+      "B": "Pela faixa mais próxima à direita, sinalizando antes",
+      "C": "Por qualquer faixa sem seta",
+      "D": "Pela contramão"
+    },
+    "correta": "B",
+    "explicacao": "Conversões devem ser feitas pela faixa adequada ao sentido da manobra, com sinalização.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 34."
+  },
+  {
+    "categoria_slug": "circulacao",
+    "dificuldade": "facil",
+    "enunciado": "Acostamento destina-se, em regra, a:",
+    "alternativas": {
+      "A": "Ultrapassagem rápida",
+      "B": "Parada de emergência e socorro, não à circulação habitual de veículos",
+      "C": "Corridas de motos",
+      "D": "Estacionamento diário"
+    },
+    "correta": "B",
+    "explicacao": "Acostamento não é faixa de tráfego normal; usar para parada emergencial ou situações previstas.",
+    "referencia": "Questão de treinamento autoral. CTB, art. 39."
+  }
+]
