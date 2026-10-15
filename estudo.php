@@ -37,7 +37,7 @@ $total = count($fila['fila']);
 $indice = $fila['indice'];
 $questaoId = estudo_proximo_id();
 
-$pageTitle = 'Modo estudo — ' . site_nome();
+$pageTitle = 'Treinar — ' . site_nome();
 $extraJs = 'assets/js/estudo.js';
 require __DIR__ . '/includes/header.php';
 
@@ -45,22 +45,14 @@ $categorias = estudo_categorias_disponiveis();
 ?>
 <div class="container simulado-layout">
     <div class="page-header">
-        <h1>Modo estudo</h1>
-        <p class="text-muted">Escolha uma alternativa e veja na hora a resposta correta e a explicação. Ideal para fixar o conteúdo antes do simulado.</p>
-    </div>
-
-    <div class="alert alert-info estudo-mg-info">
-        <strong>Prova teórica em Minas Gerais (DETRAN-MG):</strong>
-        conforme orientação do <a href="https://www.mg.gov.br/servico/obter-1a-habilitacao-cnh-ou-acc" target="_blank" rel="noopener noreferrer">Portal MG</a>,
-        o exame costuma ter <strong>30 questões</strong> e exige <strong>no mínimo 20 acertos</strong> para aprovação
-        (regra vigente divulgada pelo Estado em adaptação à Res. CONTRAN nº 1.020/2025).
-        As questões abaixo são <strong>somente para treinamento</strong> — não são oficiais nem de provas anteriores.
+        <h1>Treinar para a prova</h1>
+        <p class="text-muted">Toque em uma alternativa — na hora você vê se acertou e a explicação.</p>
     </div>
 
     <?php if ($msg = flash('error')): ?><div class="alert alert-error"><?= e($msg) ?></div><?php endif; ?>
 
     <form method="get" class="card estudo-filtro" style="margin-bottom:1rem;">
-        <label for="categoria">Estudar por categoria</label>
+        <label for="categoria">Tema (opcional)</label>
         <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.35rem;">
             <select name="categoria" id="categoria">
                 <option value="">Todas as categorias</option>

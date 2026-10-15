@@ -18,7 +18,7 @@ $pagina = pagina_atual();
 <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 <header class="site-header">
     <div class="container header-inner">
-        <a class="logo" href="<?= e(url('simulados.php')) ?>">
+        <a class="logo" href="<?= e(url('estudo.php')) ?>">
             <span class="logo-mark" aria-hidden="true">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/><path d="M10 17h12M16 11v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
             </span>
@@ -29,8 +29,8 @@ $pagina = pagina_atual();
             <span class="sr-only">Menu</span>
         </button>
         <nav id="menu-principal" class="nav-main" data-nav>
-            <a href="<?= e(url('estudo.php')) ?>" class="<?= $pagina === 'estudo.php' ? 'active' : '' ?>">Estudar</a>
-            <a href="<?= e(url('simulados.php')) ?>" class="<?= in_array($pagina, ['simulados.php', 'simulado.php', 'resultado.php'], true) ? 'active' : '' ?>">Prova</a>
+            <a href="<?= e(url('estudo.php')) ?>" class="<?= $pagina === 'estudo.php' ? 'active' : '' ?>">Treinar</a>
+            <a href="<?= e(url('simulados.php')) ?>" class="<?= in_array($pagina, ['simulados.php', 'simulado.php', 'resultado.php'], true) ? 'active' : '' ?>">Simulado</a>
         </nav>
     </div>
 </header>

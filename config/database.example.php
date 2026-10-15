@@ -1,11 +1,12 @@
 <?php
 /**
- * Copie este arquivo para database.php e preencha com os dados do MySQL.
+ * Na Hostinger: após o deploy, renomeie/copie para database.php
+ * ou edite a senha aqui e faça deploy de novo (auto-cópia na primeira visita).
  */
 return [
     'host'     => 'localhost',
-    'dbname'   => 'u586160337_detran', // nome do banco no cPanel (ex.: u123_usuario_detran)
+    'dbname'   => 'u586160337_detran',
     'username' => 'u586160337_detran',
-    'password' => 'sua_senha_mysql',
+    'password' => '',
     'charset'  => 'utf8mb4',
 ];

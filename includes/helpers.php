@@ -62,8 +62,35 @@ function site_nome(): string
 
 function require_instalado(): void
 {
-    if (config_get('instalado', '0') !== '1') {
-        redirect(url('install.php'));
+    require_db();
+}
+
+function require_db(): void
+{
+    static $ok = false;
+    if ($ok) {
+        return;
+    }
+    $configPath = APP_ROOT . '/config/database.php';
+    $examplePath = APP_ROOT . '/config/database.example.php';
+    if (!is_readable($configPath) && is_readable($examplePath)) {
+        @copy($examplePath, $configPath);
+    }
+    try {
+        if (!is_readable($configPath)) {
+            throw new RuntimeException('config');
+        }
+        db()->query('SELECT 1');
+        $ok = true;
+    } catch (Throwable) {
+        http_response_code(503);
+        header('Content-Type: text/html; charset=utf-8');
+        echo '<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">';
+        echo '<title>Configuração</title><link rel="stylesheet" href="' . e(url('assets/css/style.css')) . '"></head><body>';
+        echo '<div class="container form-card" style="margin:2rem auto;"><h1>Ajuste rápido</h1>';
+        echo '<p>Edite no Gerenciador de arquivos: <strong>config/database.php</strong> (host, banco, usuário e senha MySQL da Hostinger).</p>';
+        echo '<p class="form-hint">Depois recarregue esta página.</p></div></body></html>';
+        exit;
     }
 }
 
