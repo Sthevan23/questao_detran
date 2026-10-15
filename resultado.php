@@ -61,7 +61,7 @@ require __DIR__ . '/includes/header.php';
             ? 'Parabéns! Você atingiu a nota mínima divulgada pelo Portal MG para a prova teórica.'
             : 'Estude as questões erradas abaixo e tente novamente. No dia da prova, são necessários pelo menos ' . $minAcertos . ' acertos.' ?></p>
         <div style="display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;margin-top:1rem;">
-            <a class="btn btn-primary" href="<?= e($refazerUrl) ?>">Fazer prova novamente</a>
+            <a class="btn btn-primary" href="<?= e($refazerUrl) ?>">Nova prova (outras <?= $totalProva ?> questões)</a>
             <?php
             $erradas = array_filter($questoes, fn($q) => !$q['acertou']);
             if ($erradas):

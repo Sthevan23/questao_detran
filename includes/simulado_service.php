@@ -43,10 +43,48 @@ function prova_mg_qtd_questoes(): int
     return max(1, (int) (config_get('mg_qtd_questoes', '30') ?? 30));
 }
 
+function prova_mg_duracao_minutos(): int
+{
+    return max(1, (int) (config_get('mg_duracao_minutos', '40') ?? 40));
+}
+
+/** Evita repetir as mesmas questões do simulado anterior neste navegador. */
+function prova_questoes_excluir_sorteio(): array
+{
+    $excluir = [];
+    $historico = $_SESSION['ultimas_provas_questoes'] ?? [];
+    if (!is_array($historico)) {
+        return [];
+    }
+    foreach (array_slice($historico, 0, 2) as $lote) {
+        if (is_array($lote)) {
+            foreach ($lote as $id) {
+                $excluir[(int) $id] = (int) $id;
+            }
+        }
+    }
+
+    return array_values($excluir);
+}
+
+function prova_registrar_questoes_sorteadas(array $questaoIds): void
+{
+    $ids = array_values(array_map('intval', $questaoIds));
+    if (!$ids) {
+        return;
+    }
+    $hist = $_SESSION['ultimas_provas_questoes'] ?? [];
+    if (!is_array($hist)) {
+        $hist = [];
+    }
+    array_unshift($hist, $ids);
+    $_SESSION['ultimas_provas_questoes'] = array_slice($hist, 0, 3);
+}
+
 /** Aprovação conforme Portal MG: 20 acertos em 30 questões (prova teórica). */
 function prova_mg_aprovado(int $acertos, int $total, array $simulado): bool
 {
-    if ($simulado['tipo'] === 'geral' && (int) $simulado['qtd_questoes'] === prova_mg_qtd_questoes()) {
+    if ($simulado['tipo'] === 'geral') {
         return $acertos >= prova_mg_acertos_minimos();
     }
     $min = (float) ($simulado['pontuacao_minima'] ?? 70);
@@ -57,13 +95,25 @@ function simulado_prova_geral(): ?array
 {
     $stmt = db()->query('SELECT * FROM simulados WHERE tipo = "geral" AND ativo = 1 ORDER BY id ASC LIMIT 1');
     $row = $stmt->fetch();
-    return $row ?: null;
+    if (!$row) {
+        return null;
+    }
+    $qtd = prova_mg_qtd_questoes();
+    $dur = prova_mg_duracao_minutos();
+    if ((int) $row['qtd_questoes'] !== $qtd || (int) $row['duracao_minutos'] !== $dur) {
+        db()->prepare('UPDATE simulados SET qtd_questoes = ?, duracao_minutos = ? WHERE id = ?')
+            ->execute([$qtd, $dur, (int) $row['id']]);
+        $row['qtd_questoes'] = $qtd;
+        $row['duracao_minutos'] = $dur;
+    }
+
+    return $row;
 }
 
 /**
  * Sorteio equilibrado entre categorias (como conteúdo programático misto na prova real).
  */
-function sortear_prova_mg_equilibrada(int $qtd): array
+function sortear_prova_mg_equilibrada(int $qtd, array $excluirIds = []): array
 {
     $pdo = db();
     $cats = $pdo->query('SELECT id FROM categorias WHERE ativo = 1 ORDER BY ordem')->fetchAll(PDO::FETCH_COLUMN);
@@ -73,7 +123,7 @@ function sortear_prova_mg_equilibrada(int $qtd): array
     }
 
     $ids = [];
-    $usados = [];
+    $usados = array_values(array_unique(array_map('intval', $excluirIds)));
     $base = intdiv($qtd, $n);
     $extra = $qtd % $n;
     shuffle($cats);
@@ -109,25 +159,43 @@ function sortear_prova_mg_equilibrada(int $qtd): array
     return array_slice($ids, 0, $qtd);
 }
 
-function sortear_questoes(array $simulado): array
+function sortear_questoes(array $simulado, array $excluirIds = []): array
 {
     $qtd = (int) $simulado['qtd_questoes'];
+    if ($simulado['tipo'] === 'geral') {
+        $qtd = prova_mg_qtd_questoes();
+    }
     $pdo = db();
+    $excluir = array_values(array_unique(array_map('intval', $excluirIds)));
+    $notInExcluir = $excluir ? ' AND id NOT IN (' . implode(',', $excluir) . ')' : '';
 
     if ($simulado['tipo'] === 'categoria' && !empty($simulado['categoria_id'])) {
-        $sql = 'SELECT id FROM questoes WHERE ativo = 1 AND categoria_id = ? ORDER BY RAND() LIMIT ' . (int) $qtd;
+        $sql = 'SELECT id FROM questoes WHERE ativo = 1 AND categoria_id = ?' . $notInExcluir . ' ORDER BY RAND() LIMIT ' . (int) $qtd;
         $stmt = $pdo->prepare($sql);
         $stmt->execute([(int) $simulado['categoria_id']]);
         $ids = array_column($stmt->fetchAll(), 'id');
+        if (count($ids) < $qtd && $excluir) {
+            return sortear_questoes($simulado, []);
+        }
+
         return array_map('intval', $ids);
     }
 
-    if ($simulado['tipo'] === 'geral' && $qtd === prova_mg_qtd_questoes()) {
-        return sortear_prova_mg_equilibrada($qtd);
+    if ($simulado['tipo'] === 'geral') {
+        $ids = sortear_prova_mg_equilibrada($qtd, $excluir);
+        if (count($ids) < $qtd && $excluir) {
+            return sortear_prova_mg_equilibrada($qtd, []);
+        }
+
+        return $ids;
     }
 
-    $sql = 'SELECT id FROM questoes WHERE ativo = 1 ORDER BY RAND() LIMIT ' . (int) $qtd;
+    $sql = 'SELECT id FROM questoes WHERE ativo = 1' . $notInExcluir . ' ORDER BY RAND() LIMIT ' . (int) $qtd;
     $ids = array_column($pdo->query($sql)->fetchAll(), 'id');
+    if (count($ids) < $qtd && $excluir) {
+        return sortear_questoes($simulado, []);
+    }
+
     return array_map('intval', $ids);
 }
 
@@ -138,7 +206,13 @@ function iniciar_tentativa(int $simuladoId, ?int $usuarioId): array
         return ['ok' => false, 'msg' => 'Simulado não encontrado.'];
     }
 
-    $questoes = sortear_questoes($sim);
+    if ($sim['tipo'] === 'geral') {
+        $sim['qtd_questoes'] = prova_mg_qtd_questoes();
+        $sim['duracao_minutos'] = prova_mg_duracao_minutos();
+    }
+
+    $excluir = $sim['tipo'] === 'geral' ? prova_questoes_excluir_sorteio() : [];
+    $questoes = sortear_questoes($sim, $excluir);
     $esperado = (int) $sim['qtd_questoes'];
     if (count($questoes) < 1) {
         return ['ok' => false, 'msg' => 'Não há questões cadastradas. Importe seed_100_questoes_mg.sql no phpMyAdmin.'];
@@ -171,6 +245,10 @@ function iniciar_tentativa(int $simuladoId, ?int $usuarioId): array
     } catch (Throwable $e) {
         $pdo->rollBack();
         return ['ok' => false, 'msg' => 'Erro ao iniciar simulado.'];
+    }
+
+    if ($sim['tipo'] === 'geral') {
+        prova_registrar_questoes_sorteadas($questoes);
     }
 
     return [

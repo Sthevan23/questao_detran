@@ -195,5 +195,6 @@ INSERT INTO `configuracoes` (`chave`, `valor`) VALUES
 ('instalado', '1'),
 ('mg_qtd_questoes', '30'),
 ('mg_acertos_minimos', '20'),
+('mg_duracao_minutos', '40'),
 ('max_login_tentativas', '5'),
 ('bloqueio_minutos', '15');

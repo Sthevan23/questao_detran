@@ -202,6 +202,18 @@ a:hover { text-decoration: underline; }
 .alt-list label:hover { border-color: var(--blue-700); background: var(--blue-100); }
 .alt-list input:checked + .alt-text { font-weight: 600; }
 .alt-list input { margin-top: .25rem; accent-color: var(--blue-700); }
+.sim-map {
+  display: flex; flex-wrap: wrap; gap: .35rem; margin: 1rem 0 1.25rem; padding: .75rem;
+  background: var(--white); border-radius: var(--radius); border: 1px solid var(--gray-200);
+}
+.sim-map-btn {
+  min-width: 2.1rem; height: 2.1rem; padding: 0 .35rem; font-size: .8rem; font-weight: 600;
+  border: 1px solid var(--gray-200); border-radius: 6px; background: var(--gray-50); cursor: pointer;
+  color: var(--blue-900);
+}
+.sim-map-btn:hover { border-color: var(--blue-700); background: var(--blue-100); }
+.sim-map-btn.is-current { border-color: var(--blue-700); background: var(--blue-700); color: #fff; }
+.sim-map-btn.is-answered:not(.is-current) { background: #ecfdf5; border-color: #6ee7b7; }
 .sim-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin-top: 1.25rem; }
 .revisao-flag { display: flex; align-items: center; gap: .5rem; margin-top: 1rem; font-size: .9rem; }
 

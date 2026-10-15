@@ -15,7 +15,23 @@
   var timerEl = document.getElementById('sim-timer');
   var progressEl = document.getElementById('sim-progress');
   var labelEl = document.getElementById('sim-progress-label');
+  var mapEl = document.getElementById('sim-map');
+  var mapBtns = mapEl ? mapEl.querySelectorAll('.sim-map-btn') : [];
   var intervalId = null;
+
+  function questaoRespondida(qEl) {
+    var qid = qEl.dataset.questaoId;
+    return !!qEl.querySelector('input[name="alt_' + qid + '"]:checked');
+  }
+
+  function atualizarMapa() {
+    mapBtns.forEach(function (btn, idx) {
+      var qEl = questoes[idx];
+      btn.classList.toggle('is-current', idx === atual);
+      btn.classList.toggle('is-answered', questaoRespondida(qEl));
+      btn.setAttribute('aria-current', idx === atual ? 'true' : 'false');
+    });
+  }
 
   function mostrar(index) {
     if (index < 0 || index >= total) return;
@@ -24,6 +40,7 @@
     questoes[atual].hidden = false;
     if (labelEl) labelEl.textContent = 'Questão ' + (atual + 1) + ' de ' + total;
     if (progressEl) progressEl.style.width = (((atual + 1) / total) * 100) + '%';
+    atualizarMapa();
   }
 
   function formatTime(s) {
@@ -68,9 +85,19 @@
     });
   }
 
+  mapBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var idx = parseInt(btn.dataset.goto, 10);
+      if (Number.isNaN(idx)) return;
+      salvar(questoes[atual]).then(function () { mostrar(idx); });
+    });
+  });
+
   questoes.forEach(function (qEl) {
     qEl.querySelectorAll('input[type="radio"]').forEach(function (radio) {
-      radio.addEventListener('change', function () { salvar(qEl); });
+      radio.addEventListener('change', function () {
+        salvar(qEl).then(function () { atualizarMapa(); });
+      });
     });
     var rev = qEl.querySelector('[data-revisao]');
     if (rev) rev.addEventListener('change', function () { salvar(qEl); });

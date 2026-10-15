@@ -8,7 +8,7 @@ $prova = simulado_prova_geral();
 $totalAtivas = (int) db()->query('SELECT COUNT(*) FROM questoes WHERE ativo = 1')->fetchColumn();
 $qtdProva = $prova ? (int) $prova['qtd_questoes'] : prova_mg_qtd_questoes();
 $minAcertos = prova_mg_acertos_minimos();
-$duracao = $prova ? (int) $prova['duracao_minutos'] : 40;
+$duracao = prova_mg_duracao_minutos();
 
 if (is_post()) {
     csrf_verify();
@@ -29,8 +29,9 @@ $pageTitle = 'Prova teórica — ' . site_nome();
 require __DIR__ . '/includes/header.php';
 ?>
 <div class="container" style="max-width:480px;padding-top:1.5rem;">
-    <h1>Simulado da prova</h1>
-    <p class="text-muted"><?= $qtdProva ?> questões · <?= $duracao ?> min · aprovado com <?= $minAcertos ?> acertos</p>
+    <h1>Simulado da prova real</h1>
+    <p class="text-muted">Igual ao DETRAN-MG: <strong><?= $qtdProva ?> questões</strong>, <strong><?= $duracao ?> minutos</strong>, aprovado com <strong><?= $minAcertos ?> acertos</strong>.</p>
+    <p class="form-hint" style="margin-bottom:1rem;">Cada vez que você começar, o sistema sorteia <strong>outro conjunto de questões</strong> (como na prova).</p>
     <?php if ($msg = flash('error')): ?><div class="alert alert-error"><?= e($msg) ?></div><?php endif; ?>
 
     <?php if (!$prova): ?>
@@ -41,7 +42,7 @@ require __DIR__ . '/includes/header.php';
         <form method="post" data-loading>
             <?= csrf_field() ?>
             <input type="hidden" name="simulado_id" value="<?= (int) $prova['id'] ?>">
-            <button type="submit" class="btn btn-primary" style="width:100%;padding:.9rem;font-size:1.05rem;">Começar simulado</button>
+            <button type="submit" class="btn btn-primary" style="width:100%;padding:.9rem;font-size:1.05rem;">Iniciar nova prova (<?= $qtdProva ?> questões)</button>
         </form>
     <?php endif; ?>
     <p style="text-align:center;margin-top:1.25rem;"><a href="<?= e(url('estudo.php')) ?>">← Voltar a treinar</a></p>

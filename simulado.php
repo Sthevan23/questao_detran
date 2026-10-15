@@ -43,12 +43,22 @@ require __DIR__ . '/includes/header.php';
          data-finalizar-url="<?= e(url('simulado.php?id=' . $id)) ?>">
         <div class="simulado-top">
             <div>
-                <div class="text-muted" style="font-size:.85rem;">Prova teórica · DETRAN-MG (treinamento)</div>
+                <div class="text-muted" style="font-size:.85rem;">Prova teórica · <?= $totalQ ?> questões · DETRAN-MG</div>
                 <div id="sim-progress-label">Questão 1 de <?= $totalQ ?></div>
             </div>
             <div class="progress-bar" aria-hidden="true"><span id="sim-progress" style="width:0;"></span></div>
             <div class="timer" id="sim-timer" aria-live="polite">--:--</div>
         </div>
+
+        <nav class="sim-map" id="sim-map" aria-label="Ir para questão">
+            <?php foreach ($questoes as $i => $q): ?>
+            <button type="button"
+                    class="sim-map-btn"
+                    data-goto="<?= $i ?>"
+                    aria-label="Questão <?= $i + 1 ?>"
+                    aria-current="<?= $i === 0 ? 'true' : 'false' ?>"><?= $i + 1 ?></button>
+            <?php endforeach; ?>
+        </nav>
 
         <?php foreach ($questoes as $i => $q): ?>
         <article class="questao-card" data-questao data-questao-id="<?= (int) $q['id'] ?>" <?= $i > 0 ? 'hidden' : '' ?>>
