@@ -1,5 +1,4 @@
--- Aplicar em bancos já existentes (phpMyAdmin)
-USE `aprova_cnh`;
+-- Aplicar em bancos já existentes (phpMyAdmin, banco já selecionado)
 
 UPDATE `simulados` SET
   `nome` = 'Prova teórica DETRAN-MG',

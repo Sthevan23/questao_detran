@@ -14,22 +14,15 @@ Plataforma leve de simulados para prova teórica do DETRAN: PHP 8.1+, MySQL/Mari
 ## Estrutura
 
 ```
-detran_simulado/
-├── database.sql          # Schema + categorias + simulado geral
-├── seed_100_questoes_mg.sql  # 100 questões de treinamento DETRAN-MG
-├── seed_questoes.sql     # Demo (opcional)
-├── scripts/              # carga_100_questoes.php, questoes_100.json
-├── README.md
-└── public_html/          # Enviar conteúdo para public_html no servidor
-    ├── index.php
-    ├── install.php
-    ├── config/           # Protegido por .htaccess
-    ├── includes/
-    ├── admin/
-    ├── aluno/
-    ├── api/
-    ├── assets/
-    └── uploads/
+questao_detran/           # Raiz = pasta public_html na Hostinger (auto-deploy Git)
+├── index.php
+├── simulados.php
+├── config/               # database.php (local, não vai no Git)
+├── includes/
+├── assets/
+├── database.sql
+├── seed_100_questoes_mg.sql
+└── scripts/
 ```
 
 ## Instalação no cPanel
@@ -39,8 +32,8 @@ detran_simulado/
 3. **Importar SQL:** phpMyAdmin → Importar → `database.sql`.
 4. **Questões de treinamento:** importe **`seed_100_questoes_mg.sql`** (100 questões autorais DETRAN-MG). Opcional: `seed_treinamento_mg.sql` / `seed_questoes.sql`.
 5. **Carga idempotente (alternativa):** na hospedagem, `php scripts/carga_100_questoes.php` — ignora enunciados duplicados.
-6. **Configuração:** edite `public_html/config/database.php` (ou copie de `database.example.php`).
-7. **Upload:** envie `public_html` e a pasta `scripts/` (opcional, para carga CLI).
+6. **Configuração:** edite `config/database.php` no servidor (copie de `database.example.php`).
+7. **Git Hostinger:** deploy da branch `main` direto em `public_html` (raiz do repo = site).
 8. **Permissões:** pasta `uploads/` gravável pelo PHP.
 9. **HTTPS:** ative SSL no cPanel.
 10. **Ativação:** acesse `/install.php` uma vez (só confirma o banco) ou use site direto se `instalado=1`.

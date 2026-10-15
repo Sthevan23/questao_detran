@@ -1,5 +1,5 @@
 -- Questões autorais de demonstração (importe após database.sql)
-USE `aprova_cnh`;
+-- Selecione seu banco no phpMyAdmin antes de importar.
 
 -- Helper: insere questão e alternativas via variáveis temporárias simplificadas
 -- Legislação (categoria 1)

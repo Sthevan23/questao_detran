@@ -4,7 +4,7 @@
  */
 return [
     'host'     => 'localhost',
-    'dbname'   => 'aprova_cnh',
+    'dbname'   => 'u586160337_detran', // nome do banco no cPanel (ex.: u123_usuario_detran)
     'username' => 'seu_usuario',
     'password' => 'sua_senha',
     'charset'  => 'utf8mb4',

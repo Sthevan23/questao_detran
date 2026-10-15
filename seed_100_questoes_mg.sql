@@ -1,7 +1,7 @@
 -- 100 questões de treinamento DETRAN-MG (gerado de scripts/questoes_100.json)
 -- Importe pelo phpMyAdmin. Duplicatas: use scripts/carga_100_questoes.php para carga idempotente.
 
-USE `aprova_cnh`;
+-- Selecione seu banco no phpMyAdmin antes de importar.
 
 SET @ref = 'Questão de treinamento autoral. Base: CTB (Lei 9.503/1997) e normas CONTRAN. Estudo DETRAN-MG. Não é questão oficial de prova.';
 

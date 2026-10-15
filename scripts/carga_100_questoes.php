@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-define('APP_ROOT', dirname(__DIR__) . '/public_html');
+define('APP_ROOT', dirname(__DIR__));
 require APP_ROOT . '/includes/database.php';
 
 $jsonPath = __DIR__ . '/questoes_100.json';

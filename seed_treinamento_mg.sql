@@ -2,7 +2,7 @@
 -- Importe após database.sql (e opcionalmente seed_questoes.sql)
 -- Referência: CTB (Lei 9.503/1997), Res. CONTRAN, Portal MG (30 questões, mín. 20 acertos)
 
-USE `aprova_cnh`;
+-- Banco já selecionado no phpMyAdmin antes de importar.
 
 SET @ref = 'Questão de treinamento autoral. Base: CTB e CONTRAN. Estudo para DETRAN-MG. Não é questão oficial de prova.';
 

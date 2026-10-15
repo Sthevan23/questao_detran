@@ -1,11 +1,11 @@
 -- Aprova CNH - Schema MySQL/MariaDB
 -- Charset: utf8mb4
+--
+-- HOSPEDAGEM (cPanel): crie o banco no painel, abra-o no phpMyAdmin e importe ESTE arquivo.
+-- Não é necessário CREATE DATABASE (usuário compartilhado não tem permissão).
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
-
-CREATE DATABASE IF NOT EXISTS `aprova_cnh` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `aprova_cnh`;
 
 -- ---------------------------------------------------------------------------
 -- Usuários
