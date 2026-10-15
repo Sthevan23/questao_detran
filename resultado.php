@@ -2,6 +2,7 @@
 declare(strict_types=1);
 require_once __DIR__ . '/includes/bootstrap.php';
 require_once __DIR__ . '/includes/simulado_service.php';
+require_once __DIR__ . '/includes/historico_service.php';
 require_instalado();
 
 $id = (int) ($_GET['id'] ?? 0);
@@ -40,6 +41,8 @@ $questoes = $data['questoes'];
 $totalProva = count($questoes);
 $minAcertos = prova_mg_acertos_minimos();
 $refazerUrl = url('simulados.php');
+historico_registrar_tentativa($id);
+$dicas = historico_resumo_ultima_tentativa($id);
 
 $pageTitle = 'Resultado — ' . site_nome();
 require __DIR__ . '/includes/header.php';
@@ -68,8 +71,32 @@ require __DIR__ . '/includes/header.php';
             ?>
             <a class="btn btn-outline-dark" href="#revisao-erros">Ver questões erradas</a>
             <?php endif; ?>
+            <a class="btn btn-outline-dark" href="<?= e(url('historico.php')) ?>">Ver todo o progresso</a>
         </div>
     </div>
+
+    <?php if ($dicas): ?>
+    <article class="card hist-dica" style="margin-bottom:1.5rem;">
+        <h2 style="margin-top:0;font-size:1.1rem;">O que estudar e revisar</h2>
+        <p><?= e($dicas['mensagem']) ?></p>
+        <?php if (!empty($dicas['estudar_mais'])): ?>
+            <p><strong>Prioridade para treinar:</strong></p>
+            <ul class="hist-tema-list">
+                <?php foreach ($dicas['estudar_mais'] as $cat): ?>
+                <li>
+                    <?= e($cat['nome']) ?>
+                    <a class="btn btn-sm btn-primary" href="<?= e(url('estudo.php?categoria=' . (int) $cat['id'])) ?>">Treinar</a>
+                </li>
+                <?php endforeach; ?>
+            </ul>
+        <?php endif; ?>
+        <?php if (!empty($dicas['revisar'])): ?>
+            <p class="form-hint" style="margin-top:.75rem;">
+                Revisar: <?= e(implode(', ', array_map(fn($c) => (string) $c['nome'], $dicas['revisar']))) ?>.
+            </p>
+        <?php endif; ?>
+    </article>
+    <?php endif; ?>
 
     <h2>Revisão das questões</h2>
     <?php foreach ($questoes as $q): ?>

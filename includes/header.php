@@ -31,6 +31,7 @@ $pagina = pagina_atual();
         <nav id="menu-principal" class="nav-main" data-nav>
             <a href="<?= e(url('estudo.php')) ?>" class="<?= $pagina === 'estudo.php' ? 'active' : '' ?>">Treinar</a>
             <a href="<?= e(url('simulados.php')) ?>" class="<?= in_array($pagina, ['simulados.php', 'simulado.php', 'resultado.php'], true) ? 'active' : '' ?>">Simulado</a>
+            <a href="<?= e(url('historico.php')) ?>" class="<?= $pagina === 'historico.php' ? 'active' : '' ?>">Progresso</a>
         </nav>
     </div>
 </header>

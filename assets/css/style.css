@@ -217,6 +217,33 @@ a:hover { text-decoration: underline; }
 .sim-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin-top: 1.25rem; }
 .revisao-flag { display: flex; align-items: center; gap: .5rem; margin-top: 1rem; font-size: .9rem; }
 
+.hist-stats {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: .75rem; margin: 1.25rem 0;
+}
+@media (min-width: 560px) { .hist-stats { grid-template-columns: repeat(4, 1fr); } }
+.hist-stat {
+  background: var(--white); border-radius: var(--radius); padding: 1rem; text-align: center;
+  box-shadow: var(--shadow); border: 1px solid var(--gray-200);
+}
+.hist-stat-num { display: block; font-size: 1.75rem; font-weight: 800; color: var(--blue-900); line-height: 1.1; }
+.hist-stat-ok .hist-stat-num { color: var(--success); }
+.hist-stat-bad .hist-stat-num { color: var(--danger); }
+.hist-stat-label { font-size: .78rem; color: var(--gray-600); }
+.hist-dica { border-left: 4px solid var(--blue-700); }
+.hist-tema-list { list-style: none; padding: 0; margin: .5rem 0 0; display: grid; gap: .65rem; }
+.hist-tema-list li {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .5rem;
+  padding: .65rem .75rem; background: var(--gray-50); border-radius: 8px;
+}
+.hist-tema-revisar li { display: list-item; list-style: disc; margin-left: 1.25rem; background: none; padding: .15rem 0; }
+.hist-list { display: grid; gap: .65rem; }
+.hist-row {
+  display: grid; gap: .35rem; text-decoration: none; color: inherit; transition: border-color .15s;
+}
+.hist-row:hover { border-color: var(--blue-700); }
+.hist-row-score { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; font-size: .95rem; }
+.hist-row-detail { font-size: .85rem; color: var(--gray-600); }
+
 .result-hero {
   text-align: center; padding: 2rem; background: var(--white); border-radius: var(--radius);
   box-shadow: var(--shadow); margin-bottom: 1.5rem;

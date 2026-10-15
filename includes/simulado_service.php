@@ -361,6 +361,9 @@ function finalizar_tentativa(int $tentativaId, int $tempoUtilizadoSeg, bool $exp
 
     unset($_SESSION['tentativa_id'], $_SESSION['tentativa_token']);
 
+    require_once __DIR__ . '/historico_service.php';
+    historico_registrar_tentativa($tentativaId);
+
     return [
         'ok' => true,
         'acertos' => $acertos,
